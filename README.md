@@ -18,11 +18,9 @@ In app/Python run:
 pip install instagram_private_api
 pip install -U spacy
 python -m spacy download en_core_web_lg
-
-
 ```
 
-In the file where your instagram ping package is saved, in instagram_web_api/client.py
+In the file where your instagram ping package is saved (where your python packages are saved in), in instagram_web_api/client.py
 replace the code in line 311 with:
 
 ```python
